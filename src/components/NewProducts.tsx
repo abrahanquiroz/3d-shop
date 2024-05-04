@@ -5,7 +5,7 @@ import ProductCard from './ProductCard'
 
 const productsData = [
     {
-        img: "/autito.jpeg",
+        img: "/autito.png",
         title: "Autito",
         desc: "3D Printed Autito",
         rating: 2,
@@ -33,35 +33,35 @@ const productsData = [
         price: "15.00",
     },
     {
-        img: "/organizador.jpg",
+        img: "/organizador.png",
         title: "Organizer",
         desc: "3D Printed Organizer Drawer",
         rating: 5,
         price: "15.00",
     },
     {
-        img: "/portalentes.jpg",
+        img: "/portalentes.png",
         title: "Glasses Holder",
         desc: "3D Printed Glasses Holder",
         rating: 3,
         price: "15.00",
     },
     {
-        img: "/soportecontrol.jpg",
+        img: "/soportecontrol.png",
         title: "Control Stand",
         desc: "3D Printed Control Stand",
         rating: 4,
         price: "15.00",
     },
     {
-        img: "/soportecafe.jpg",
+        img: "/soportecafe.png",
         title: "Coffee Stand",
         desc: "3D Printed Coffee Stand",
         rating: 4,
         price: "15.00",
     },
     {
-        img: "/figuradeaccion.jpg",
+        img: "/figuradeaccion.png",
         title: "Action Figure",
         desc: "3D Printed Action Figure",
         rating: 4,
