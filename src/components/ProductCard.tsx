@@ -74,7 +74,7 @@ const ProductCard: React.FC<propsType> = ({img, title, desc, rating, price}) => 
     }
 
   return (
-    <div className="border border-gray-200 rounded-xl max-w-[400px] h-full">
+    <div className="border border-gray-200 rounded-xl max-w-[400px] w-full h-full">
       <div>
         <Image
           className="w-full h-[300px] object-cover rounded-t-xl"
