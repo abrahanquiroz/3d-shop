@@ -4,8 +4,6 @@ import DiscountBanner from "@/components/DiscountBanner";
 import Members from "@/components/Members";
 
 function Home() {
-  console.log('holahgola')
-  console.log(process.env.GOOGLE_CLIENT_ID);
   return (
     <main>
       <Hero />

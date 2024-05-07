@@ -23,8 +23,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  console.log('holahgola');
-  console.log(process.env.GOOGLE_CLIENT_ID); 
   return (
     <html lang="en">
       <body className={inter.className}>
