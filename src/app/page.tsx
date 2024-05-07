@@ -1,11 +1,11 @@
-import Image from "next/image";
 import Hero from "@/components/Hero";
 import NewProducts from "@/components/NewProducts";
-import Testimonial from "@/components/DiscountBanner";
 import DiscountBanner from "@/components/DiscountBanner";
 import Members from "@/components/Members";
 
-export default function Home() {
+function Home() {
+  console.log('holahgola')
+  console.log(process.env.GOOGLE_CLIENT_ID);
   return (
     <main>
       <Hero />
@@ -15,3 +15,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Home;
