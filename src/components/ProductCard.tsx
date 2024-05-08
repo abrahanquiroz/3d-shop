@@ -8,11 +8,9 @@ interface propsType {
     title: string;
     desc: string;
     rating: number;
-    price: string;
-
 }
 
-const ProductCard: React.FC<propsType> = ({img, title, desc, rating, price}) => {
+const ProductCard: React.FC<propsType> = ({ img, title, desc, rating }) => {
 
     const generateRating = (rating: number) => {
         switch (rating) {
@@ -89,11 +87,6 @@ const ProductCard: React.FC<propsType> = ({img, title, desc, rating, price}) => 
         <h2 className="text-slate-900 font-medium uppercase">{title}</h2>
         <p className="text-gray-500 max-w-[150px]">{desc}</p>
         <div>{generateRating(rating)}</div>
-
-        <div className="font-bold flex gap-4">
-            ${price}
-            <del className="text-neutral-300 font-normal">${parseInt(price) + 7}.00</del>
-        </div>
       </div>
     </div>
   );
