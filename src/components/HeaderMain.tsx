@@ -42,7 +42,7 @@ export default function HeaderMain() {
               <button onClick={async () => { await signOut({callbackUrl: "/"}); }}>Logout</button>
             </div>
           ) : (
-            <button onClick={() => signIn()} className="bg-sky-400 px-3 py-2 rounded">Sign In</button>
+            <button onClick={() => signIn()} className="bg-slate-950 text-zinc-50 px-3 py-2 rounded-xl">Sign In</button>
           )}
         </div>
       </div>
