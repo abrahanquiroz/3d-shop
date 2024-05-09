@@ -11,3 +11,9 @@ CONFIG -
 
 
  - npm run dev
+
+
+
+contact me- 
+abrahanqz@gmail.com
+
